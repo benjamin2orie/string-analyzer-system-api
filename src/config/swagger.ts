@@ -14,6 +14,10 @@ const options ={
                 url: 'http://localhost:4000',
                 description: 'Development server',
             },
+            {
+                url:'https://string-analyzer-system-api-production.up.railway.app',
+                description:'Pro server'
+            }
         ],
     },
     apis: ['./src/routes/*.ts', './src/model/*.ts'], // Path to the API docs

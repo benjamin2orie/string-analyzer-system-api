@@ -41,5 +41,9 @@ DB_URI = <your mongo db connection string>
 
 # servers:
 dev_server:http://localhost:4000
+prod_server: https://string-analyzer-system-api-production.up.railway.app
+
+## Swagger doc url:
+ api-doc: [https://string-analyzer-system-api-production.up.railway.app/api-docs]
 
 
