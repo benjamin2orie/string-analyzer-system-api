@@ -1,0 +1,39 @@
+{
+  "name": "hng13-stage1-backend-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch src --ext ts --exec \"node --loader ts-node/esm ./src/index.ts\"",
+    "build": "tsc -p .",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "Orie",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@typegoose/typegoose": "^11.7.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongodb": "^5.9.2",
+    "mongoose": "^7.6.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.8.1",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.8",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
